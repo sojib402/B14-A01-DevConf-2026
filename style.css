@@ -48,7 +48,8 @@
     margin-bottom: 250px;
 }
 .hero-parent {
-background-image: url(./assets/banner.jpg);
+
+    background-image: linear-gradient(to right, rgba(0,0,0,0.6)30%,rgba(0,0,0,0)70%),linear-gradient(45deg,rgba(0,0,0,0)42%,rgba(0,0,0,0.88)87%),url(./assets/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
