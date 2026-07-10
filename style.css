@@ -80,7 +80,7 @@ background-image: url(./assets/banner.jpg);
 border: 0.001px solid #888888;
 padding-bottom: 30px;
 border-radius: 5px;
-overflow: hidden;
+
 }
 .box1-text h3{
     margin-left: 5px;
@@ -102,4 +102,136 @@ overflow: hidden;
     font-size: 14px;
     
 }
+.Speaker-text h2{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.Speaker-text{
+    margin: 20px 0;
+}
 
+
+
+/* Card section */
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px; 
+    padding: 20px;
+}
+
+.card h3,p{
+    color: #888888; 
+   
+}
+/* .card-3-parent h3,p{
+    color: #888888;
+} */
+.card p{
+    margin-bottom: 10px;
+}
+/* .card ul{
+    color: #333333;
+} */
+ .card-1-parent,.card-3-parent ul{
+     color: #333333; 
+    
+ }
+ .card-2-parent ul{
+    color: white;
+ }
+
+.card-1-parent{
+    border: 1px solid #E5E7EB;
+    padding: 20px;
+    
+}
+
+.card-1-parent hr{
+   
+     border: none;
+    border-top: 0.1px solid #E5E7EB;
+}
+
+
+.card-2-parent{
+    border: 1px solid #E5E7EB;
+    padding: 20px;
+}
+.card-2-parent hr{
+     border: none;
+    border-top: 0.1px solid #E5E7EB; 
+    
+}
+.card-3-parent{
+    border: 0.1px solid #E5E7EB;
+    padding: 20px;
+}
+.card-3-parent hr{
+    border: none;
+    border-top: 0.1px solid #E5E7EB;
+}
+.card-1-box,.card-2-box,.card-3-box ul{
+    padding-left: 20px;
+    
+}
+
+ li::marker{ 
+    color: #1D4ED8;
+}
+.Card-upper-text{
+text-align: center;
+} 
+.Card-upper-text h2{
+    font-size: 42px;
+}
+.Card-upper-text p{
+    color: #575757;
+    font-size: 18px;
+    
+}
+.card-1,.card-3 h2{
+    color: black;
+}
+.card-2 h2{
+    color: #FFFFFF;
+}
+
+.card-btn-1{
+    font-weight: 700;
+    color: #2563EB;
+    height: 28px;
+    width: 200px;
+    border: 1px solid #2563EB;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-btn-2{
+    font-weight: 700;
+    color: #FFFFFF;
+    height: 28px;
+    width: 200px;
+    border: 1px solid #2563EB;
+    background-color: #2563EB;
+    border-radius: 10px;
+}
+.card-btn-3{
+    font-weight: 700;
+    color: #0D1B2A;
+    height: 28px;
+    width: 200px;
+    border: 1px solid #0D1B2A;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.btn-parent{
+    margin-top: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+.card-2-parent{
+    background-color: #0D1B2A;
+}
