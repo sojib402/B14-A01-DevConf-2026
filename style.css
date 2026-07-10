@@ -1,0 +1,105 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+.navbar-parent{
+   margin-top: 30px; 
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+.navbar-middle{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+    
+}
+.btn1{
+    font-weight: 700;
+    color: white;
+    padding: 10px 30px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+
+/* Hero section */
+
+.hero-text h2{
+  
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+.hero-text p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 250px;
+}
+.hero-parent {
+background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero-text{
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+
+/* <!-- Speakers Section --> */
+
+.Speaker-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     background-position: center;
+    background-size: cover; 
+    gap: 20px;
+}
+.box1 img{
+    width: 100%;
+    
+}
+.box1{ 
+border: 0.001px solid #888888;
+padding-bottom: 30px;
+border-radius: 5px;
+overflow: hidden;
+}
+.box1-text h3{
+    margin-left: 5px;
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.box1-text h2{
+    margin-left: 5px;
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.box1-text p{
+    margin-left: 5px;
+    color: #575757;
+    font-size: 14px;
+    
+}
+
