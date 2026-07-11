@@ -28,8 +28,12 @@
     padding: 10px 30px;
     background-color: #1D4ED8;
     border-radius: 10px;
-    border: none;
-    
+    border: none; 
+}
+.btn1:hover{
+    background-color: red;
+    color: aqua;
+    cursor: pointer;
 }
 
 
@@ -66,7 +70,9 @@
 
 
 /* <!-- Speakers Section --> */
-
+.Speaker{
+    margin-bottom: 40px;
+}
 .Speaker-gallery{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -124,13 +130,11 @@ border-radius: 5px;
     padding: 20px;
 }
 
-.card h3,p{
+.card h3,.card p{
     color: #888888; 
    
 }
-/* .card-3-parent h3,p{
-    color: #888888;
-} */
+
 .card p{
     margin-bottom: 10px;
 }
@@ -210,6 +214,11 @@ text-align: center;
     background-color: white;
     border-radius: 10px;
 }
+.card-btn-1:hover{
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+}
 .card-btn-2{
     font-weight: 700;
     color: #FFFFFF;
@@ -219,6 +228,11 @@ text-align: center;
     background-color: #2563EB;
     border-radius: 10px;
 }
+.card-btn-2:hover{
+    background-color: green;
+    color: antiquewhite;
+    cursor: pointer;
+}
 .card-btn-3{
     font-weight: 700;
     color: #0D1B2A;
@@ -227,6 +241,11 @@ text-align: center;
     border: 1px solid #0D1B2A;
     background-color: #FFFFFF;
     border-radius: 10px;
+}
+.card-btn-3:hover{
+    background-color: blue;
+    color: blueviolet;
+    cursor: pointer;
 }
 .btn-parent{
     margin-top: 20px;
@@ -273,6 +292,9 @@ li{
     position: relative;
     
 }
+.Regristration-section-text{
+    text-align: center;
+}
 .img-1,.img-2,.img-3{
     position: absolute;
 }
@@ -304,6 +326,9 @@ li{
   
     right: 40px;
     bottom: 10px;
+}
+.compettion-section{
+    margin-bottom: 50px;
 }
 
 
