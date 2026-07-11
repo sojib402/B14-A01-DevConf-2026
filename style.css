@@ -243,6 +243,72 @@ li{
 
 
 
+/* compettion section */
+
+.compettion-section-text{
+    text-align: center;
+}
+.compettion-section-text h1{
+    margin-bottom: 15px;
+    color: #1D4ED8;
+}
+.compettion-section-text p{
+    color: rgb(164, 156, 156);
+    margin-bottom: 20px;
+}
+.Regristration-section-text button{
+    margin: 10px 20px;
+}
+.Regristration-section-text p{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+}
+.Regristration-section{
+    height: 600px;
+    background-image: url('./new-image/final-background.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.img-1,.img-2,.img-3{
+    position: absolute;
+}
+.img-1 img{
+    height: 250px;
+    width: 250px;
+}
+.img-1{
+  
+    
+    left: 40px;
+    bottom: 10px;
+}
+
+.img-2 img{
+    height: 100px;
+    width: 100px; 
+}
+.img-2 {
+    right: 450px;
+    bottom: 10px;
+    
+}
+.img-3 img{
+    height: 250px;
+    width: 250px;
+}
+.img-3{
+  
+    right: 40px;
+    bottom: 10px;
+}
+
+
+
+
 /* footer section */
 
 
